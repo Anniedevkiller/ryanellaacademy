@@ -13,31 +13,7 @@ const nunitoMono = Nunito({
   variable: "--font-nunito-mono",
   subsets: ["latin"],
 });
-const inter = Nunito({
-  variable: "--font-nunito",
-  subsets: ["latin"],
-  display: "swap",
-});
-const roboto = Nunito({
-  variable: "--font-roboto",
-  subsets: ["latin"],
-  display: "swap",
-});
-const montserrat = Nunito({
-  variable: "--font-montserrat",
-  subsets: ["latin"],
-  display: "swap",
-});
-const poppins = Nunito({
-  variable: "--font-poppins",
-  subsets: ["latin"],
-  display: "swap",
-});
-const openSans = Nunito({
-  variable: "--font-open-sans",
-  subsets: ["latin"],
-  display: "swap",
-});
+
 
 export const metadata: Metadata = {
   title: "Ryanella Academy",
