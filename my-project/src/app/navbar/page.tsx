@@ -3,12 +3,15 @@
 import Link from "next/link"
 import { useState } from "react"
 
-const Nav_Links = [
+type NavLink = {
+  name: string
+  href: string
+}
+
+const Nav_Links: NavLink[] = [
   { name: "About", href: "/about" },
   { name: "Courses", href: "/admission" },
   { name: "Contact", href: "/contact" },
-  { name: "Blog", href: "/blog" },
-  { name: "Gallery", href: "/gallery" },
 ]
 
 export default function Navbar() {
