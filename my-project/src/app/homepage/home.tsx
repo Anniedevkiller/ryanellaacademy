@@ -14,7 +14,7 @@ export default function HomePage() {
         <div className="container mx-auto px-4 z-20 relative">
           <div className="max-w-2xl text-white">
             <h1 className="text-5xl md:text-6xl lg:text-7xl font-bold mb-6 font-serif leading-tight">
-              <span className="text-[#d3b15a]">Discover</span> Your Style at
+              <span className="text-[#d3b15a]">Welcome</span> To
               <br />
               <span className="text-[#d3b15a]">Ryanella</span> Academy
             </h1>
